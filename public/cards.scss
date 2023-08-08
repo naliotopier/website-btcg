@@ -1,0 +1,358 @@
+$card-width: 16.5vw;
+$card-height: $card-width * (6/5);
+$card-vh: $card-height/100;
+
+// Style name
+$name-color: rgb(243, 243, 243);
+$name-size: $card-width * 0.065;
+
+// Style title
+$title-color: rgb(136, 136, 136);
+$title-size: $card-width * 0.042;
+
+// Style bio
+$bio-color: rgb(182, 182, 182);
+$bio-size: $card-width * 0.042;
+
+.teams-intro-div {
+  margin-bottom: 5.5%;
+
+  .bkg-img1 {
+    height: 50vh;
+    object-position: 100% 23%;
+  }
+
+  .title-logo {
+    /* Set dimensions  */
+    height: 2.65rem;
+    width: 30rem;
+  }
+
+  .title-for-intro {
+    padding-top: 0.13rem;
+  }
+}
+
+.card-holder {
+  display: grid;
+  justify-content: space-between;
+
+  position: relative;
+  margin: 1.5% 15% 4% 15%;
+}
+
+.card {
+  margin-bottom: 8%;
+
+  overflow: hidden;
+
+  img {
+    filter: grayscale(50%);
+  }
+
+  .card-title-name {
+    inset: 65% 0% 0% 0%;
+    position: absolute;
+    background-image: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(0, 0, 0, 0.15) 10%,
+      rgba(0, 0, 0, 0.35) 20%,
+      rgba(0, 0, 0, 0.5) 30%,
+      rgba(0, 0, 0, 0.7) 40%,
+      rgba(0, 0, 0, 0.85) 50%,
+      rgba(0, 0, 0, 0.95) 60%,
+      rgba(0, 0, 0, 0.98) 65%,
+      rgba(0, 0, 0, 0.99) 70%,
+      rgba(0, 0, 0, 0.99) 100%
+    );
+    .card-name {
+      inset: 57% 0% 0% 7%;
+    }
+    .card-title {
+      inset: 50% 0% 0% 7%;
+    }
+  }
+}
+
+.card-holder {
+  grid-template-columns: repeat(auto-fill, $card-width);
+}
+
+.card {
+  width: $card-width;
+  height: $card-height;
+}
+
+.card-name {
+  position: relative;
+  color: $name-color;
+  font-size: $name-size;
+}
+
+.card-title {
+  position: relative;
+  color: $title-color;
+  font-size: $title-size;
+}
+
+.card-text {
+  position: relative;
+  color: $bio-color;
+  font-size: $bio-size;
+}
+
+.my-card-img-overlay {
+  opacity: 0;
+  transform: scale(0.75);
+
+  position: absolute;
+  inset: 0% 7% 0% 7%;
+  .card-name {
+    top: 3.5%;
+  }
+  .card-title {
+    top: 1.2%;
+  }
+  .card-text {
+    top: 1.7%;
+  }
+}
+
+@media (max-width: 1280px) {
+  h2 {
+    font-size: 3.2vw;
+  }
+
+  $card-width: 22.5vw;
+  $card-height: $card-width * (6/5);
+  $card-vh: $card-height/100;
+
+  // Style name
+  $name-color: rgb(243, 243, 243);
+  $name-size: $card-width * 0.065;
+
+  // Style title
+  $title-color: rgb(136, 136, 136);
+  $title-size: $card-width * 0.042;
+
+  // Style bio
+  $bio-color: rgb(182, 182, 182);
+  $bio-size: $card-width * 0.042;
+
+  .card-holder {
+    grid-template-columns: repeat(auto-fill, $card-width);
+  }
+
+  .card {
+    width: $card-width;
+    height: $card-height;
+  }
+
+  .card-name {
+    position: relative;
+    color: $name-color;
+    font-size: $name-size;
+  }
+
+  .card-title {
+    position: relative;
+    color: $title-color;
+    font-size: $title-size;
+  }
+
+  .card-text {
+    position: relative;
+    color: $bio-color;
+    font-size: $bio-size;
+  }
+}
+
+@media (max-width: 900px) {
+  h2 {
+    font-size: 4.5vw;
+  }
+
+  $card-width: 33.5vw;
+  $card-height: $card-width * (6/5);
+  $card-vh: $card-height/100;
+
+  // Style name
+  $name-color: rgb(243, 243, 243);
+  $name-size: $card-width * 0.065;
+
+  // Style title
+  $title-color: rgb(136, 136, 136);
+  $title-size: $card-width * 0.042;
+
+  // Style bio
+  $bio-color: rgb(182, 182, 182);
+  $bio-size: $card-width * 0.042;
+
+  .card-holder {
+    grid-template-columns: repeat(auto-fill, $card-width);
+  }
+
+  .card {
+    width: $card-width;
+    height: $card-height;
+  }
+
+  .card-name {
+    position: relative;
+    color: $name-color;
+    font-size: $name-size;
+  }
+
+  .card-title {
+    position: relative;
+    color: $title-color;
+    font-size: $title-size;
+  }
+
+  .card-text {
+    position: relative;
+    color: $bio-color;
+    font-size: $bio-size;
+  }
+}
+
+@media (max-width: 620px) {
+  h2 {
+    font-size: 4.5vw;
+  }
+
+  $card-width: 44.5vw;
+  $card-height: $card-width * (6/5);
+  $card-vh: $card-height/100;
+
+  // Style name
+  $name-color: rgb(243, 243, 243);
+  $name-size: $card-width * 0.065;
+
+  // Style title
+  $title-color: rgb(136, 136, 136);
+  $title-size: $card-width * 0.042;
+
+  // Style bio
+  $bio-color: rgb(182, 182, 182);
+  $bio-size: $card-width * 0.042;
+
+  .TeamPage {
+    .card-holder {
+      grid-template-columns: repeat(auto-fill, $card-width);
+    }
+
+    .card {
+      width: $card-width;
+      height: $card-height;
+    }
+
+    .card-name {
+      position: relative;
+      color: $name-color;
+      font-size: $name-size;
+    }
+
+    .card-title {
+      position: relative;
+      color: $title-color;
+      font-size: $title-size;
+    }
+
+    .card-text {
+      position: relative;
+      color: $bio-color;
+      font-size: $bio-size;
+    }
+
+    .card-holder {
+      margin: 1.5% 4% 3% 4%;
+    }
+
+    .title-container {
+      margin-left: 4%;
+    }
+
+    h2 {
+      margin-left: 4%;
+    }
+  }
+}
+
+// IMAGE
+// Dull image
+@mixin dull-image-enter-values {
+  filter: brightness(10%);
+}
+.dull-image-enter {
+  @include dull-image-enter-values;
+  transition: filter 1000ms;
+}
+.dull-image-enter-done {
+  @include dull-image-enter-values;
+}
+// Restore image
+@mixin dull-image-exit-values {
+  filter: brightness(100%);
+}
+.dull-image-exit {
+  @include dull-image-exit-values;
+  transition: filter 1000ms;
+  // transition-delay: 250ms;
+}
+.dull-image-exit-done {
+  @include dull-image-exit-values;
+}
+
+// TITLE AND NAME
+// Hide title-name (tn)
+@mixin hide-tn-enter-values {
+  opacity: 0;
+}
+.hide-tn-enter {
+  @include hide-tn-enter-values;
+  transition: opacity 800ms;
+}
+.hide-tn-enter-done {
+  @include hide-tn-enter-values;
+}
+// Restore image
+@mixin hide-tn-exit-values {
+  opacity: 1;
+}
+.hide-tn-exit {
+  @include hide-tn-exit-values;
+  transition: opacity 1000ms;
+  transition-delay: 250ms;
+}
+.hide-tn-exit-done {
+  @include hide-tn-exit-values;
+}
+
+//BIO
+// Show bio-text
+@mixin bio-enter-vals {
+  opacity: 1;
+  transform: scale(1);
+}
+.show-bio-enter {
+  @include bio-enter-vals;
+  transition: opacity 500ms, transform 500ms;
+  transition-delay: 500ms;
+}
+.show-bio-enter-done {
+  @include bio-enter-vals;
+}
+// Hide bio-text
+@mixin bio-exit-vals {
+  opacity: 0;
+  transform: scale(0.75);
+}
+.show-bio-exit {
+  @include bio-exit-vals;
+  transition: opacity 350ms, transform 350ms;
+}
+.show-bio-exit-done {
+  @include bio-exit-vals;
+}

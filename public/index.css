@@ -1,0 +1,193 @@
+/*****************************************************
+  INTRODUCTION SECTION
+  *****************************************************/
+.intro-div {
+  position: relative;
+  overflow: hidden;
+
+  padding: 0;
+  width: 100%;
+}
+
+.bkg-img1 {
+  position: relative;
+
+  width: 112%;
+  height: 72vh; /* vh in a percentage of the viewport */
+  object-fit: cover;
+  object-position: 0 80%;
+
+  filter: brightness(25%);
+}
+
+.title-container {
+  /* Position in middle of parent div  */
+  position: absolute;
+  inset: 0;
+  margin: auto auto auto 15%;
+  height: fit-content;
+}
+
+.nav-bar-offset {
+  /* set height to the height of the navbar */
+  height: 52px;
+}
+
+.title-logo {
+  /* Set dimensions  */
+  height: 10rem;
+  width: 50rem;
+}
+
+.logo-for-intro {
+  float: left;
+  height: 100%;
+  margin: 0 0.5rem 0 0;
+}
+
+.title-for-intro {
+  height: 100%;
+
+  /* Setup flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+
+  line-height: 100%;
+  font-size: 3.5rem;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  color: #eeeeee;
+}
+
+.BT {
+  margin-top: 0.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.capital-letter-title {
+  font-size: 4.4rem;
+}
+
+/* Change logo and title size with screen width */
+/* when width == 1200px --> 1vw == 12px */
+/* 1rem == 16px == (4/3)vw */
+@media (max-width: 1200px) {
+  .title-logo {
+    width: calc(50 * (4vw / 3));
+    height: calc(10 * (4vw / 3));
+  }
+
+  .logo-for-intro {
+    margin: 0 calc(0.5 * (4vw / 3)) 0 0;
+  }
+
+  .title-for-intro {
+    font-size: calc(3.5 * (4vw / 3));
+  }
+
+  .BT {
+    margin-top: calc(0.8 * (4vw / 3));
+    margin-bottom: calc(0.4 * (4vw / 3));
+  }
+
+  .capital-letter-title {
+    font-size: calc(4.4 * (4vw / 3));
+  }
+}
+
+/* Shift over background image  */
+@media (max-width: 720px) {
+  .bkg-img1 {
+    object-position: 20% 80%;
+  }
+}
+
+/* Make background image encompass whole screen height  */
+@media (max-height: 680px) {
+  .bkg-img1 {
+    height: 100vh;
+  }
+}
+/*****************************************************
+  ABOUT SECTION
+  *****************************************************/
+.about-div {
+  margin: 4vh 0;
+}
+
+/*****************************************************
+  PARTNERS SECTION
+  *****************************************************/
+.partners-div {
+  /* background-color: grey; */
+  /* height: 600px; */
+  /* background-color: rgb(241, 241, 241); */
+  /* padding: 4rem 0; */
+  margin: 4vh 0;
+
+  /* So that carousel out of screen does not affect layout */
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  /* background-color: rgb(81, 60, 54); */
+}
+.partners-text {
+  /* align text along vertical lines */
+  width: 100%;
+  /* margin: 10vh 0; */
+  /* inset: 15%; */
+  /* white-space: normal; */
+  font-size: 1.2rem;
+  /* padding: 4rem 0; */
+}
+
+.partners-body-text {
+  margin: 0 20% 4vh 15%;
+}
+.carousel {
+  position: relative;
+  height: calc(4vh + 3vw);
+}
+.carousel-border {
+  height: 100%;
+  width: 20vw;
+  position: absolute;
+
+  z-index: 1;
+  pointer-events: none;
+  /* for browsers that do not support gradients */
+  background-color: transparent;
+  /* border: solid;
+    border-color: white;
+    border-width: 0px; */
+}
+/* .carousel-left {
+  background-image: linear-gradient(to right, white, transparent);
+    left: 0;
+    border-width: 0 0 0 10vw;
+}
+.carousel-right {
+  background-image: linear-gradient(to left, white, transparent);
+    right: 0;
+} */
+
+.single-carousel-container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100%;
+
+  position: absolute;
+  flex-basis: content;
+  flex-grow: 0;
+}
+.partner-logo {
+  margin: 0 calc(4vh + 3vw);
+  filter: grayscale(90%);
+  height: 100%;
+}
+.partner-logo:hover {
+  filter: grayscale(0%);
+}

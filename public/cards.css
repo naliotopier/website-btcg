@@ -1,0 +1,236 @@
+.teams-intro-div {
+  margin-bottom: 5.5%;
+}
+.teams-intro-div .bkg-img1 {
+  height: 50vh;
+  object-position: 100% 23%;
+}
+.teams-intro-div .title-logo {
+  /* Set dimensions  */
+  height: 2.65rem;
+  width: 30rem;
+}
+.teams-intro-div .title-for-intro {
+  padding-top: 0.13rem;
+}
+
+.card-holder {
+  display: grid;
+  justify-content: space-between;
+  position: relative;
+  margin: 1.5% 15% 4% 15%;
+}
+
+.card {
+  margin-bottom: 8%;
+  overflow: hidden;
+}
+.card img {
+  filter: grayscale(50%);
+}
+.card .card-title-name {
+  inset: 65% 0% 0% 0%;
+  position: absolute;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.15) 10%, rgba(0, 0, 0, 0.35) 20%, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0.95) 60%, rgba(0, 0, 0, 0.98) 65%, rgba(0, 0, 0, 0.99) 70%, rgba(0, 0, 0, 0.99) 100%);
+}
+.card .card-title-name .card-name {
+  inset: 57% 0% 0% 7%;
+}
+.card .card-title-name .card-title {
+  inset: 50% 0% 0% 7%;
+}
+
+.card-holder {
+  grid-template-columns: repeat(auto-fill, 16.5vw);
+}
+
+.card {
+  width: 16.5vw;
+  height: 19.8vw;
+}
+
+.card-name {
+  position: relative;
+  color: rgb(243, 243, 243);
+  font-size: 1.0725vw;
+}
+
+.card-title {
+  position: relative;
+  color: rgb(136, 136, 136);
+  font-size: 0.693vw;
+}
+
+.card-text {
+  position: relative;
+  color: rgb(182, 182, 182);
+  font-size: 0.693vw;
+}
+
+.my-card-img-overlay {
+  opacity: 0;
+  transform: scale(0.75);
+  position: absolute;
+  inset: 0% 7% 0% 7%;
+}
+.my-card-img-overlay .card-name {
+  top: 3.5%;
+}
+.my-card-img-overlay .card-title {
+  top: 1.2%;
+}
+.my-card-img-overlay .card-text {
+  top: 1.7%;
+}
+
+@media (max-width: 1280px) {
+  h2 {
+    font-size: 3.2vw;
+  }
+  .card-holder {
+    grid-template-columns: repeat(auto-fill, 22.5vw);
+  }
+  .card {
+    width: 22.5vw;
+    height: 27vw;
+  }
+  .card-name {
+    position: relative;
+    color: rgb(243, 243, 243);
+    font-size: 1.4625vw;
+  }
+  .card-title {
+    position: relative;
+    color: rgb(136, 136, 136);
+    font-size: 0.945vw;
+  }
+  .card-text {
+    position: relative;
+    color: rgb(182, 182, 182);
+    font-size: 0.945vw;
+  }
+}
+@media (max-width: 900px) {
+  h2 {
+    font-size: 4.5vw;
+  }
+  .card-holder {
+    grid-template-columns: repeat(auto-fill, 33.5vw);
+  }
+  .card {
+    width: 33.5vw;
+    height: 40.2vw;
+  }
+  .card-name {
+    position: relative;
+    color: rgb(243, 243, 243);
+    font-size: 2.1775vw;
+  }
+  .card-title {
+    position: relative;
+    color: rgb(136, 136, 136);
+    font-size: 1.407vw;
+  }
+  .card-text {
+    position: relative;
+    color: rgb(182, 182, 182);
+    font-size: 1.407vw;
+  }
+}
+@media (max-width: 620px) {
+  h2 {
+    font-size: 4.5vw;
+  }
+  .TeamPage .card-holder {
+    grid-template-columns: repeat(auto-fill, 44.5vw);
+  }
+  .TeamPage .card {
+    width: 44.5vw;
+    height: 53.4vw;
+  }
+  .TeamPage .card-name {
+    position: relative;
+    color: rgb(243, 243, 243);
+    font-size: 2.8925vw;
+  }
+  .TeamPage .card-title {
+    position: relative;
+    color: rgb(136, 136, 136);
+    font-size: 1.869vw;
+  }
+  .TeamPage .card-text {
+    position: relative;
+    color: rgb(182, 182, 182);
+    font-size: 1.869vw;
+  }
+  .TeamPage .card-holder {
+    margin: 1.5% 4% 3% 4%;
+  }
+  .TeamPage .title-container {
+    margin-left: 4%;
+  }
+  .TeamPage h2 {
+    margin-left: 4%;
+  }
+}
+.dull-image-enter {
+  filter: brightness(10%);
+  transition: filter 1000ms;
+}
+
+.dull-image-enter-done {
+  filter: brightness(10%);
+}
+
+.dull-image-exit {
+  filter: brightness(100%);
+  transition: filter 1000ms;
+}
+
+.dull-image-exit-done {
+  filter: brightness(100%);
+}
+
+.hide-tn-enter {
+  opacity: 0;
+  transition: opacity 800ms;
+}
+
+.hide-tn-enter-done {
+  opacity: 0;
+}
+
+.hide-tn-exit {
+  opacity: 1;
+  transition: opacity 1000ms;
+  transition-delay: 250ms;
+}
+
+.hide-tn-exit-done {
+  opacity: 1;
+}
+
+.show-bio-enter {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 500ms, transform 500ms;
+  transition-delay: 500ms;
+}
+
+.show-bio-enter-done {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.show-bio-exit {
+  opacity: 0;
+  transform: scale(0.75);
+  transition: opacity 350ms, transform 350ms;
+}
+
+.show-bio-exit-done {
+  opacity: 0;
+  transform: scale(0.75);
+}
+
+/*# sourceMappingURL=cards.css.map */

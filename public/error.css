@@ -1,0 +1,28 @@
+.error-div {
+  text-align: center;
+  width: 100%;
+  min-height: calc(100vh - 56px);
+  position: relative;
+}
+.text-container {
+  height: fit-content;
+  width: 50%;
+
+  position: absolute;
+  inset: 0;
+
+  margin: auto;
+}
+@media (max-width: 800px) {
+  .error-div h2 {
+    font-size: 2rem;
+  }
+}
+
+.error-div h2 {
+  margin: 0;
+}
+.error-div h3 {
+  text-decoration: underline;
+  color: rgb(0, 0, 139);
+}
