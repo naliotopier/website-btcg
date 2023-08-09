@@ -18,7 +18,7 @@ const membersList = [
     fullName: "Nicholas Alioto-Pier",
     title: "Co-Founder; VP of Tech",
     imageName: "nico-pic.jpg",
-    bio: "Nicholas is a junior from San Francisco, CA. He is currently working towards completing his Bachelor's and Master's in Computer Science through Brown's 4-year concurrent degree program. Nicholas is particularly interested in artificial intelligence and front-end developement. He current works at Whimstay as a front-end developer; he previously, worked construction and demolition for the Toboni Group. In his free time, Nicholas enjoys surfing, playing sudoku, and reading Supreme Court cases.",
+    bio: "Nicholas is a junior from San Francisco, CA. He is working on completing his Bachelor's and Master's in Computer Science through Brown's 4-year concurrent degree program. Nicholas is particularly interested in artificial intelligence and front-end developement. He previously worked as a Full Stack SWE Intern at MongoDB and a Front-End Intern at Whimstay, Inc. In his free time, Nicholas enjoys surfing, playing sudoku, and reading Supreme Court cases.",
   },
   {
     id: 4,
