@@ -4,7 +4,7 @@ const membersList = [
     fullName: "James Phelan",
     title: "Co-President, Project Lead",
     imageName: "jimmy-pic.jpg",
-    bio: "Jimmy is a sophomore from Marin County, CA, pursuing a concentration in Applied Mathematics Computer Science specifically interested in Security and Data Science. Jimmy is currently a cadet in Army ROTC. After graduating, Jimmy hopes to apply his knowledge to a role in the intersection between defense and technology. Jimmy is also a member of the Brown University Men’s Rugby team. In his free time, Jimmy enjoys surfing, eating, playing sports, and chess.",
+    bio: "Jimmy is a sophomore from Marin County, CA, pursuing a concentration in Applied Mathematics Computer Science specifically interested in Security and Data Science. Jimmy has spent his past summer teaching math and computer science. After graduating, Jimmy hopes to apply his knowledge to a role in the intersection between business and technology. Outside of the classroom, Jimmy is currently a cadet in Army ROTC and is also a member of the Brown University Men’s Rugby team. In his free time, Jimmy enjoys surfing, eating, playing sports, and chess.",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const membersList = [
     fullName: "Julia Birmingham",
     title: "Vice President, Project Lead",
     imageName: "juliab-pic.jpg",
-    bio: "Julia is a current Junior studying Applied Mathematics - Economics with a focus on Behaviorial Decision Sciences",
+    bio: "Julia is a current Junior studying Applied Mathematics - Economics with a focus on Behaviorial Decision Sciences.",
   },
   {
     id: 4,
@@ -157,7 +157,7 @@ const membersList = [
     id: 23,
     fullName: "Samuel Schuchman",
     title: "Junior Associate",
-    imageName: "samuel-pic.jpg",
+    imageName: "sams-pic.jpg",
     bio: "Sam is a sophomore from Bethesda, Maryland pursuing a concentration in Computer Science and Economics. In addition to working with BCTG, Sam has a profound interest in entrepreneurship and has worked closely on multiple startups. At Brown, he also enjoys tutoring Providence-area elementary school students in computer science and playing club sports. In his free time, Sam enjoys being active outdoors and listening to new music.",
   },
   {
