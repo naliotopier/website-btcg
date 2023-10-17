@@ -29,17 +29,17 @@ const membersList = [
   },
   {
     id: 5,
-    fullName: "Maximilian Koehler",
-    title: "Senior Associate, Project Lead",
-    imageName: "max-pic.jpg",
-    bio: "Max is a sophomore from Acton, MA, pursuing a double concentration in German Studies and Applied Mathematics-Economics with a focus on mathematical finance. Outside of the classroom, he is an active member of Brown’s Investment Group and German Club, as well as being a player on Brown’s developmental ultimate team, PFunk. In his free time, Max enjoys watching soccer and football with friends, value investing, hiking, cooking, and traveling.",
-  },
-  {
-    id: 6,
     fullName: "Preetish Juneja",
     title: "Senior Associate, Project Lead",
     imageName: "preetish-pic.jpg",
     bio: "Preetish is a sophomore from Singapore concentrating in Computer Science and Applied Mathematics-Economics. He is passionate about artificial intelligence and hopes to harness its power to innovate technological solutions. Outside of school, he is a history buff, linguaphile and karaoke enthusiast.",
+  },
+  {
+    id: 6,
+    fullName: "Maximilian Koehler",
+    title: "Senior Associate",
+    imageName: "max-pic.jpg",
+    bio: "Max is a sophomore from Acton, MA, pursuing a double concentration in German Studies and Applied Mathematics-Economics with a focus on mathematical finance. Outside of the classroom, he is an active member of Brown’s Investment Group and German Club, as well as being a player on Brown’s developmental ultimate team, PFunk. In his free time, Max enjoys watching soccer and football with friends, value investing, hiking, cooking, and traveling.",
   },
   {
     id: 7,
@@ -68,13 +68,6 @@ const membersList = [
     title: "Senior Associate",
     imageName: "kylash-pic.png",
     bio: "Kylash is a sophomore from Easton, MA, pursuing a dual concentration in Applied Math-Economics and Computer Science. Interested in the intersection between finance and technology, Kylash is an Analyst for the Socially Responsible Investment Fund and has attended several hackathons. He also manages a 5-figure budget and plans career-driven workshops as Head of Business for the Intercollegiate Finance Journal. Outside of the classroom, Kylash enjoys eating Italian food, playing basketball with friends, and journaling.",
-  },
-  {
-    id: 11,
-    fullName: "Preetish Juneja",
-    title: "Senior Associate, Project Lead",
-    imageName: "preetish-pic.jpg",
-    bio: "Preetish is a freshman from Singapore intending to concentrate in computer science and applied mathematics-economics on the mathematical finance track. He’s intrigued by modern artificial intelligence systems and hopes to harness their power to innovate technological solutions. Outside of school, he is a history buff, linguaphile and karaoke enthusiast.",
   },
   {
     id: 12,
