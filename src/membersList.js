@@ -188,6 +188,13 @@ const membersList = [
     imageName: "vinh-pic.PNG",
     bio: "Vinh is a sophomore from Miami, FL pursuing a double concentration in CS-Econ as well as Engineering. Vinh's academic interests converge at the intersection of technology and economics, where he has been extensively working on projects with the French Government, as well as International Olympic committee. Outside of the classroom, Vinh plays for the Brown Men's Rugby Team, and loves to ski and sail. As a Frenchman, Vinh is a gastronomic connoisseur, and would never turn down an invitation to some cheeky beverages or hors d'oeuvres.",
   },
+  {
+    id: 29,
+    fullName: "Santiago Cortabarria",
+    title: "Junior Associate",
+    imageName: "santi-pic.jpg",
+    bio: "Santiago is a Junior from Miami, Florida pursuing a degree in Computer Science as well as Applied Mathematics. Santiago most recently worked as a Software Developer Intern at General Motors. Outside of the classroom, Santiago enjoys playing sports and is a member of the Brown Men's Rugby Club.",
+  }
 ];
 
 export default membersList;
