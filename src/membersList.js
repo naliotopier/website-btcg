@@ -4,7 +4,7 @@ const membersList = [
     fullName: "James Phelan",
     title: "Co-President, Project Lead",
     imageName: "jimmy-pic.jpg",
-    bio: "Jimmy is a sophomore from Marin County, CA, pursuing a concentration in Applied Mathematics Computer Science specifically interested in Security and Data Science. Jimmy is currently a cadet in Army ROTC. After graduating, Jimmy hopes to apply his knowledge to a role in the intersection between defense and technology. Jimmy is also a member of the Brown University Men’s Rugby team. In his free time, Jimmy enjoys surfing, eating, playing sports, and chess.",
+    bio: "Jimmy is a sophomore from Marin County, CA, pursuing a concentration in Applied Mathematics Computer Science specifically interested in Security and Data Science. Jimmy has spent his past summer teaching math and computer science. After graduating, Jimmy hopes to apply his knowledge to a role in the intersection between business and technology. Outside of the classroom, Jimmy is currently a cadet in Army ROTC and is also a member of the Brown University Men’s Rugby team. In his free time, Jimmy enjoys surfing, eating, playing sports, and chess.",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const membersList = [
     fullName: "Julia Birmingham",
     title: "Vice President, Project Lead",
     imageName: "juliab-pic.jpg",
-    bio: "Julia is a current Junior studying Applied Mathematics - Economics with a focus on Behaviorial Decision Sciences",
+    bio: "Julia is a current Junior studying Applied Mathematics - Economics with a focus on Behaviorial Decision Sciences.",
   },
   {
     id: 4,
@@ -29,17 +29,17 @@ const membersList = [
   },
   {
     id: 5,
-    fullName: "Maximilian Koehler",
-    title: "Senior Associate, Project Lead",
-    imageName: "max-pic.jpg",
-    bio: "Max is a sophomore from Acton, MA, pursuing a double concentration in German Studies and Applied Mathematics-Economics with a focus on mathematical finance. Outside of the classroom, he is an active member of Brown’s Investment Group and German Club, as well as being a player on Brown’s developmental ultimate team, PFunk. In his free time, Max enjoys watching soccer and football with friends, value investing, hiking, cooking, and traveling.",
-  },
-  {
-    id: 6,
     fullName: "Preetish Juneja",
     title: "Senior Associate, Project Lead",
     imageName: "preetish-pic.jpg",
     bio: "Preetish is a sophomore from Singapore concentrating in Computer Science and Applied Mathematics-Economics. He is passionate about artificial intelligence and hopes to harness its power to innovate technological solutions. Outside of school, he is a history buff, linguaphile and karaoke enthusiast.",
+  },
+  {
+    id: 6,
+    fullName: "Maximilian Koehler",
+    title: "Senior Associate",
+    imageName: "max-pic.jpg",
+    bio: "Max is a sophomore from Acton, MA, pursuing a double concentration in German Studies and Applied Mathematics-Economics with a focus on mathematical finance. Outside of the classroom, he is an active member of Brown’s Investment Group and German Club, as well as being a player on Brown’s developmental ultimate team, PFunk. In his free time, Max enjoys watching soccer and football with friends, value investing, hiking, cooking, and traveling.",
   },
   {
     id: 7,
@@ -71,10 +71,10 @@ const membersList = [
   },
   {
     id: 11,
-    fullName: "Preetish Juneja",
-    title: "Senior Associate, Project Lead",
-    imageName: "preetish-pic.jpg",
-    bio: "Preetish is a freshman from Singapore intending to concentrate in computer science and applied mathematics-economics on the mathematical finance track. He’s intrigued by modern artificial intelligence systems and hopes to harness their power to innovate technological solutions. Outside of school, he is a history buff, linguaphile and karaoke enthusiast.",
+    fullName: "Justin Dyer",
+    title: "Senior Associate",
+    imageName: "justin-pic.jpg",
+    bio: "Justin '25 concentrates on Environmental Studies and Economics. He is interested in enterprise software and early-stage consulting. He is curious about the application of SaaS for sustainability goals. Outside of BTCG, Justin is the founder and president of Sustainable Business Society and an active member of the Men's Rugby team."
   },
   {
     id: 12,
@@ -157,7 +157,7 @@ const membersList = [
     id: 23,
     fullName: "Samuel Schuchman",
     title: "Junior Associate",
-    imageName: "samuel-pic.jpg",
+    imageName: "sams-pic.jpg",
     bio: "Sam is a sophomore from Bethesda, Maryland pursuing a concentration in Computer Science and Economics. In addition to working with BCTG, Sam has a profound interest in entrepreneurship and has worked closely on multiple startups. At Brown, he also enjoys tutoring Providence-area elementary school students in computer science and playing club sports. In his free time, Sam enjoys being active outdoors and listening to new music.",
   },
   {
@@ -195,6 +195,13 @@ const membersList = [
     imageName: "vinh-pic.PNG",
     bio: "Vinh is a sophomore from Miami, FL pursuing a double concentration in CS-Econ as well as Engineering. Vinh's academic interests converge at the intersection of technology and economics, where he has been extensively working on projects with the French Government, as well as International Olympic committee. Outside of the classroom, Vinh plays for the Brown Men's Rugby Team, and loves to ski and sail. As a Frenchman, Vinh is a gastronomic connoisseur, and would never turn down an invitation to some cheeky beverages or hors d'oeuvres.",
   },
+  {
+    id: 29,
+    fullName: "Santiago Cortabarria",
+    title: "Junior Associate",
+    imageName: "santi-pic.jpg",
+    bio: "Santiago is a Junior from Miami, Florida pursuing a degree in Computer Science as well as Applied Mathematics. Santiago most recently worked as a Software Developer Intern at General Motors. Outside of the classroom, Santiago enjoys playing sports and is a member of the Brown Men's Rugby Club.",
+  }
 ];
 
 export default membersList;
