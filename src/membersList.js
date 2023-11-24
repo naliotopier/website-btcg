@@ -70,6 +70,13 @@ const membersList = [
     bio: "Kylash is a sophomore from Easton, MA, pursuing a dual concentration in Applied Math-Economics and Computer Science. Interested in the intersection between finance and technology, Kylash is an Analyst for the Socially Responsible Investment Fund and has attended several hackathons. He also manages a 5-figure budget and plans career-driven workshops as Head of Business for the Intercollegiate Finance Journal. Outside of the classroom, Kylash enjoys eating Italian food, playing basketball with friends, and journaling.",
   },
   {
+    id: 11,
+    fullName: "Justin Dyer",
+    title: "Senior Associate",
+    imageName: "justin-pic.jpg",
+    bio: "Justin '25 concentrates on Environmental Studies and Economics. He is interested in enterprise software and early-stage consulting. He is curious about the application of SaaS for sustainability goals. Outside of BTCG, Justin is the founder and president of Sustainable Business Society and an active member of the Men's Rugby team."
+  },
+  {
     id: 12,
     fullName: "Sam Shulman",
     title: "Senior Associate",
